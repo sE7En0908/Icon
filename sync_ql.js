@@ -2,8 +2,8 @@ const $ = new Env('同步青龙');
 let ql_host = $.getdata('ql_host')
 let ql_app_id = $.getdata('ql_app_id')
 let ql_secret_key = $.getdata('ql_secret_key')
-let ql_tg_id = $.getdata('tguserid')
-let ql_api_hosts = $.getdata('apiHosts')
+//let ql_tg_id = $.getdata('tguserid')
+//let ql_api_hosts = $.getdata('apiHosts')
 let env_key = $.getdata('sync_ql_key')
 let env_value = $.getdata(env_key)
 let active_code_key = env_key.split("app")[0]+'activecode'
@@ -19,8 +19,8 @@ let token = ''
 
 !(async () => {
     await checkEnv();
-    await search('TGUSERID', ql_tg_id);
-    await search('APIHOSTS', ql_api_hosts);
+    //await search('TGUSERID', ql_tg_id);
+    //await search('APIHOSTS', ql_api_hosts);
     await sendMsg(content);
 })()
     .catch((e) => $.logErr(e))
