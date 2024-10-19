@@ -1,0 +1,85 @@
+{
+    "id": "sE7En.app.sub",
+    "name": "sE7En脚本订",
+    "author": "@sE7En",
+    "icon": "https://raw.githubusercontent.com/sE7En0908/Icon/refs/heads/master/IMG_0922.png",
+    "apps": [
+        {
+            "id": "syncql",
+            "name": "同步青龙",
+            "keys": [
+                "ql_host",
+                "ql_app_id",
+                "ql_secret_key",
+                "sync_ql_key",
+                "sync_ql_remark"
+            ],
+            "settings": [
+                {
+                    "id": "ql_host",
+                    "name": "青龙访问地址",
+                    "val": "http://127.0.0.1:5700",
+                    "type": "text",
+                    "desc": "填写青龙的访问地址"
+                },
+                {
+                    "id": "ql_app_id",
+                    "name": "青龙授权id",
+                    "val": "",
+                    "type": "text",
+                    "desc": "填写青龙的第三方授权id"
+                },
+                {
+                    "id": "ql_secret_key",
+                    "name": "青龙授权秘钥",
+                    "val": "",
+                    "type": "text",
+                    "desc": "填写青龙的第三方授权秘钥"
+                },
+                {
+                    "id": "sync_ql_key",
+                    "name": "青龙变量名",
+                    "val": "",
+                    "type": "selects",
+                    "items": [
+                        {
+                            "key": "sfsy_data",
+                            "label": "顺丰速运"
+                        },
+                        {
+                            "key": "hsyhs_data",
+                            "label": "回收猿回收"
+                        },
+                        {
+                            "key": "zmhy_data",
+                            "label": "中免会员"
+                        },
+                        {
+                            "key": "sfsy_community_data",
+                            "label": "顺丰社区"
+                        },
+                        {
+                            "key": "pgsh_data",
+                            "label": "胖乖生活"
+                        }
+                    ],
+                    "desc": "选择需要同步的APP"
+                },
+                {
+                    "id": "sync_ql_remark",
+                    "name": "青龙变量备注",
+                    "val": "",
+                    "type": "text",
+                    "desc": "填写需要同步的变量备注信息"
+                }
+            ],
+            "author": "@sE7En",
+            "repo": "https://t.me/DontTellMe_bot",
+            "icons": [
+                "https://raw.githubusercontent.com/sE7En0908/Icon/refs/heads/master/IMG_0922.png",
+                "https://raw.githubusercontent.com/sE7En0908/Icon/refs/heads/master/ql.png"
+            ],
+            "script": "https://raw.githubusercontent.com/sE7En0908/Icon/refs/heads/master/sync_ql.js"
+        }
+    ]
+}
