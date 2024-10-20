@@ -61,6 +61,10 @@
                         {
                             "key": "pgsh_data",
                             "label": "胖乖生活"
+                        },
+                        {
+                            "key": "aliyunWeb_data",
+                            "label": "阿里云社区"
                         }
                     ],
                     "desc": "选择需要同步的APP"
