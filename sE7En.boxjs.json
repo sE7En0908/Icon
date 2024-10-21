@@ -75,7 +75,7 @@
                             "label": "测试"
                         }
                     ],
-                    "desc": "选择需要同步的APP"
+                    "desc": "选择需要同步的app"
                 },
                 {
                     "id": "sync_ql_remark",
