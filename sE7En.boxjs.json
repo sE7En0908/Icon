@@ -69,10 +69,6 @@
                         {
                             "key": "fyhs_data",
                             "label": "飞蚁回收"
-                        },
-                        {
-                            "key": "fyhs_data","pgsh_data",
-                            "label": "觉得我们"
                         }
                     ],
                     "desc": "选择需要同步的app"
