@@ -43,6 +43,10 @@
                     "type": "selects",
                     "items": [
                         {
+                            "key": "hzw",
+                            "label": "孩子王"
+                        },
+                        {
                             "key": "sfsy_data",
                             "label": "顺丰速运"
                         },
