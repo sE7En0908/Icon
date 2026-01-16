@@ -6,7 +6,7 @@
     "apps": [
         {
             "id": "PearVideoSettings",
-            "name": "播放器选择",
+            "name": "PearVideo",
             "keys": [
                 "pear_player_code",
                 "pear_custom_scheme",
@@ -15,7 +15,7 @@
             "settings": [
                 {
                     "id": "pear_player_code",
-                    "name": "播放器名",
+                    "name": "播放器",
                     "val": "",
                     "type": "selects",
                     "items": [
