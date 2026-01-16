@@ -5,7 +5,7 @@
     "icon": "https://raw.githubusercontent.com/sE7En0908/Icon/refs/heads/master/1818.png",
     "apps": [
         {
-            "id": "pear",
+            "id": "PLAYER_MAP",
             "name": "pear视频",
             "keys": [
                 "PLAYER_Code",
