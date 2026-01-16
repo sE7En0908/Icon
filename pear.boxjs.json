@@ -97,7 +97,7 @@
                             "label": "KMPlayer"
                         },
                         {
-                            "key": "vidhub://x-callback-url/play?url=",
+                            "key": "open-vidhub://x-callback-url/open?url=",
                             "label": "VidHub影库"
                         },
                         {
